@@ -1,0 +1,16 @@
+{
+	"name": "GMail Dark mode Compose",
+	"version": "0.0.0.1",
+	"description": "Changes background color of text formatting icons into gray in compose window.",
+	"content_scripts": [
+		{
+			"css": [
+				"styles.css"
+			],
+			"matches": [
+				"https://mail.google.com/*"
+			]
+		}
+	],
+	"manifest_version": 2
+}
